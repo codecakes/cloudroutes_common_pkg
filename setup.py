@@ -48,6 +48,6 @@ setup(
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
     packages=find_packages(),
-	setup_requires = ['pyyaml', 'rethinkdb', 'guppy', 'django', 'gevent'],
+	setup_requires = ['pyyaml', 'rethinkdb', 'guppy', 'django', 'gevent', 'requests[security]'],
     install_requires=['pyyaml', 'rethinkdb', 'guppy', 'django', 'gevent'],
 )
